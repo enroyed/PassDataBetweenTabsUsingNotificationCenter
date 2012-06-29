@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF856BBA15924B6A00BCDC24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF856BB915924B6A00BCDC24 /* UIKit.framework */; };
+		AF856BBC15924B6A00BCDC24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF856BBB15924B6A00BCDC24 /* Foundation.framework */; };
+		AF856BBE15924B6A00BCDC24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF856BBD15924B6A00BCDC24 /* CoreGraphics.framework */; };
+		AF856BC415924B6A00BCDC24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF856BC215924B6A00BCDC24 /* InfoPlist.strings */; };
+		AF856BC615924B6A00BCDC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BC515924B6A00BCDC24 /* main.m */; };
+		AF856BCA15924B6A00BCDC24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BC915924B6A00BCDC24 /* AppDelegate.m */; };
+		AF856BCD15924B6A00BCDC24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF856BCB15924B6A00BCDC24 /* MainStoryboard.storyboard */; };
+		AF856BD015924B6A00BCDC24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BCF15924B6A00BCDC24 /* ViewController.m */; };
+		AF856BD815924BB000BCDC24 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BD715924BB000BCDC24 /* MyTabBarViewController.m */; };
+		AF856BDB15924BCC00BCDC24 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BDA15924BCC00BCDC24 /* FirstViewController.m */; };
+		AF856BDE15924BD800BCDC24 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF856BDD15924BD800BCDC24 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF856BB515924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassDataBetweenTabsUsingNotificationCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF856BB915924B6A00BCDC24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF856BBB15924B6A00BCDC24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF856BBD15924B6A00BCDC24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF856BC115924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassDataBetweenTabsUsingNotificationCenter-Info.plist"; sourceTree = "<group>"; };
+		AF856BC315924B6A00BCDC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF856BC515924B6A00BCDC24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF856BC715924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassDataBetweenTabsUsingNotificationCenter-Prefix.pch"; sourceTree = "<group>"; };
+		AF856BC815924B6A00BCDC24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF856BC915924B6A00BCDC24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF856BCC15924B6A00BCDC24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AF856BCE15924B6A00BCDC24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF856BCF15924B6A00BCDC24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF856BD615924BB000BCDC24 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		AF856BD715924BB000BCDC24 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		AF856BD915924BCC00BCDC24 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AF856BDA15924BCC00BCDC24 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AF856BDC15924BD800BCDC24 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AF856BDD15924BD800BCDC24 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF856BB215924B6A00BCDC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF856BBA15924B6A00BCDC24 /* UIKit.framework in Frameworks */,
+				AF856BBC15924B6A00BCDC24 /* Foundation.framework in Frameworks */,
+				AF856BBE15924B6A00BCDC24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF856BAA15924B6A00BCDC24 = {
+			isa = PBXGroup;
+			children = (
+				AF856BBF15924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter */,
+				AF856BB815924B6A00BCDC24 /* Frameworks */,
+				AF856BB615924B6A00BCDC24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF856BB615924B6A00BCDC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF856BB515924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF856BB815924B6A00BCDC24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF856BB915924B6A00BCDC24 /* UIKit.framework */,
+				AF856BBB15924B6A00BCDC24 /* Foundation.framework */,
+				AF856BBD15924B6A00BCDC24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF856BBF15924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AF856BC815924B6A00BCDC24 /* AppDelegate.h */,
+				AF856BC915924B6A00BCDC24 /* AppDelegate.m */,
+				AF856BCB15924B6A00BCDC24 /* MainStoryboard.storyboard */,
+				AF856BD615924BB000BCDC24 /* MyTabBarViewController.h */,
+				AF856BD715924BB000BCDC24 /* MyTabBarViewController.m */,
+				AF856BD915924BCC00BCDC24 /* FirstViewController.h */,
+				AF856BDA15924BCC00BCDC24 /* FirstViewController.m */,
+				AF856BDC15924BD800BCDC24 /* SecondViewController.h */,
+				AF856BDD15924BD800BCDC24 /* SecondViewController.m */,
+				AF856BCE15924B6A00BCDC24 /* ViewController.h */,
+				AF856BCF15924B6A00BCDC24 /* ViewController.m */,
+				AF856BC015924B6A00BCDC24 /* Supporting Files */,
+			);
+			path = PassDataBetweenTabsUsingNotificationCenter;
+			sourceTree = "<group>";
+		};
+		AF856BC015924B6A00BCDC24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF856BC115924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter-Info.plist */,
+				AF856BC215924B6A00BCDC24 /* InfoPlist.strings */,
+				AF856BC515924B6A00BCDC24 /* main.m */,
+				AF856BC715924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF856BB415924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF856BD315924B6A00BCDC24 /* Build configuration list for PBXNativeTarget "PassDataBetweenTabsUsingNotificationCenter" */;
+			buildPhases = (
+				AF856BB115924B6A00BCDC24 /* Sources */,
+				AF856BB215924B6A00BCDC24 /* Frameworks */,
+				AF856BB315924B6A00BCDC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassDataBetweenTabsUsingNotificationCenter;
+			productName = PassDataBetweenTabsUsingNotificationCenter;
+			productReference = AF856BB515924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF856BAC15924B6A00BCDC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AF856BAF15924B6A00BCDC24 /* Build configuration list for PBXProject "PassDataBetweenTabsUsingNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF856BAA15924B6A00BCDC24;
+			productRefGroup = AF856BB615924B6A00BCDC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF856BB415924B6A00BCDC24 /* PassDataBetweenTabsUsingNotificationCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF856BB315924B6A00BCDC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF856BC415924B6A00BCDC24 /* InfoPlist.strings in Resources */,
+				AF856BCD15924B6A00BCDC24 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF856BB115924B6A00BCDC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF856BC615924B6A00BCDC24 /* main.m in Sources */,
+				AF856BCA15924B6A00BCDC24 /* AppDelegate.m in Sources */,
+				AF856BD015924B6A00BCDC24 /* ViewController.m in Sources */,
+				AF856BD815924BB000BCDC24 /* MyTabBarViewController.m in Sources */,
+				AF856BDB15924BCC00BCDC24 /* FirstViewController.m in Sources */,
+				AF856BDE15924BD800BCDC24 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF856BC215924B6A00BCDC24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF856BC315924B6A00BCDC24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF856BCB15924B6A00BCDC24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF856BCC15924B6A00BCDC24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF856BD115924B6A00BCDC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF856BD215924B6A00BCDC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF856BD415924B6A00BCDC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassDataBetweenTabsUsingNotificationCenter/PassDataBetweenTabsUsingNotificationCenter-Prefix.pch";
+				INFOPLIST_FILE = "PassDataBetweenTabsUsingNotificationCenter/PassDataBetweenTabsUsingNotificationCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF856BD515924B6A00BCDC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassDataBetweenTabsUsingNotificationCenter/PassDataBetweenTabsUsingNotificationCenter-Prefix.pch";
+				INFOPLIST_FILE = "PassDataBetweenTabsUsingNotificationCenter/PassDataBetweenTabsUsingNotificationCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF856BAF15924B6A00BCDC24 /* Build configuration list for PBXProject "PassDataBetweenTabsUsingNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF856BD115924B6A00BCDC24 /* Debug */,
+				AF856BD215924B6A00BCDC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF856BD315924B6A00BCDC24 /* Build configuration list for PBXNativeTarget "PassDataBetweenTabsUsingNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF856BD415924B6A00BCDC24 /* Debug */,
+				AF856BD515924B6A00BCDC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF856BAC15924B6A00BCDC24 /* Project object */;
+}
